@@ -4,7 +4,7 @@ Two lightweight Bash utilities to manage OpenCode chat sessions on Linux. They h
 
 Both scripts run on standard Linux environments with nothing more than bash and sqlite3. They deliberately avoid process substitution and other exotic shell features so they also work on restricted hosting.
 
-Updated : super.sh doe import clean and export for opencode version fro <1.18 to 2.0 and up
+Updated : super.sh does import, clean and export for opencode version from <1.18 to 2.0 and up 3 in 1 
 
 ## export.sh
 
