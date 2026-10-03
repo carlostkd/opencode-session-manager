@@ -4,7 +4,7 @@ Two lightweight Bash utilities to manage OpenCode chat sessions on Linux. They h
 
 Both scripts run on standard Linux environments with nothing more than bash and sqlite3. They deliberately avoid process substitution and other exotic shell features so they also work on restricted hosting.
 
-## session-export.sh
+## export.sh
 
 Purpose: safely extract specific chat sessions from an old or crashed OpenCode database and import them into a fresh one.
 
@@ -21,7 +21,7 @@ Notes:
 * You must set OLD_DB and NEW_DB paths at the top of the script to match your system
 * OpenCode must be closed while the script runs
 
-## session-clean-plain.sh
+## clean.sh
 
 Purpose: interactive cleanup of old or unnecessary sessions to keep the database small and responsive.
 
@@ -45,7 +45,7 @@ Notes:
 2. Make them executable:
 
 ```bash
-chmod +x session-export.sh session-clean-plain.sh
+chmod +x export.sh clean.sh
 ```
 
 3. Adjust the database paths in session-export.sh if needed. The delete script usually works out of the box.
